@@ -1,1 +1,1 @@
-# News-Website
+News Aggregator
