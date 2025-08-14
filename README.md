@@ -1,4 +1,4 @@
-# News Aggregator
+# RAPID NEWS 
 
 A modern, dynamic and elegant news aggregator built using **HTML**, **CSS**, and **JavaScript**. It fetches live news articles from a public API and presents them in a clean, card-based organised layout.
 
