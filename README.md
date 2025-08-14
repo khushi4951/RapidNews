@@ -2,7 +2,7 @@
 
 A modern, dynamic and elegant news aggregator built using **HTML**, **CSS**, and **JavaScript**. It fetches live news articles from a public API and presents them in a clean, card-based organised layout.
 
-##  Live Demo
+## 🚀 Live Demo
 
 Check out the live version here:  
 [rapidnews-neon.vercel.app](https://rapidnews-neon.vercel.app//) 
