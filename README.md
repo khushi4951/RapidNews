@@ -42,7 +42,7 @@ root
 ---
 ## 🙌 Acknowledgements
 
-News API for providing the data.
+GNews for providing the data.
 
 Inspired by modern card-based news portals.
 
