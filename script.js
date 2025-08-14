@@ -1,15 +1,10 @@
 
-       const API_KEY = "9de9a128a20260e512de8c2501124ee2"; 
-         const url = "https://gnews.io/api/v4/search?q=";
+      const API_KEY = "be7c6e11aaf040d19868946a4260acb4"; 
+       const url = "https://newsapi.org/v2/everything?q=";
 
         window.addEventListener("load", () => fetchNews("business"));
-
-           async function fetchNews(query) {
-    const res = await fetch(`${url}${encodeURIComponent(query)}&lang=en&max=10&token=${API_KEY}`);
-    const data = await res.json();
-    bindData(data.articles);
-}
-
+async function fetchNews(query) 
+{ const res = await fetch(${url}${query}&apiKey=${API_KEY}); const data = await res.json(); bindData(data.articles); }
 
         function bindData(articles) {
             const cardsContainer = document.getElementById("cardscontainer");
