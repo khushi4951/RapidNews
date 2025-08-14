@@ -12,9 +12,9 @@ Check out the live version here:
 ## ✨ Features
 
 - **Live News Fetching** – Get the latest articles in real time.
-- **Category-Based Filtering** – Switch between news topics easily. *(Planned feature)*
-- **Bookmarking** – Save articles locally for later reading. *(Planned feature)*
-- **Search Functionality** – Find specific articles quickly. *(Planned feature)*
+- **Category-Based Filtering** – Switch between news topics easily. 
+- **Bookmarking** – Save articles locally for later reading. 
+- **Search Functionality** – Find specific articles quickly. 
 - **Graceful Error Handling** – User-friendly messages for API or network issues.
 
 ---
