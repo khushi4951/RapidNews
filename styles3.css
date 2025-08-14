@@ -43,7 +43,7 @@ p {
     white-space: nowrap;
     border-right: 1px solid;
     animation: typing 4s steps(26) forwards, blink 1s step-end infinite;
-    animation-iteration-count: infinite;
+    
   }
   
   @keyframes typing {
