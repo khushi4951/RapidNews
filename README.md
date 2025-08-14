@@ -38,6 +38,7 @@ root
 ├── style.css      # Stylesheet for layout and design
 ├── script.js      # Handles fetching and rendering news
 └── README.md      # Project documentation
+```
 ---
 ## 🙌 Acknowledgements
 
