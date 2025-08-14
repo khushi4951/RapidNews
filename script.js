@@ -5,7 +5,7 @@
         window.addEventListener("load", () => fetchNews("business"));
 
            async function fetchNews(query) {
-    const res = await fetch(`${url}${encodeURIComponent(query)}&lang=en&max=10&token=${9de9a128a20260e512de8c2501124ee2}`);
+    const res = await fetch(`${url}${encodeURIComponent(query)}&lang=en&max=10&token=${API_KEY}`);
     const data = await res.json();
     bindData(data.articles);
 }
