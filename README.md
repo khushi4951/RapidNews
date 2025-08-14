@@ -5,32 +5,44 @@ A simple and responsive news aggregator built using **HTML**, **CSS**, and **Jav
 ##  Live Demo
 
 Check out the live version here:  
-[rapidnews-neon.vercel.app](https://rapidnews-neon.vercel.app//) :contentReference[oaicite:0]{index=0}
+[rapidnews-neon.vercel.app](https://rapidnews-neon.vercel.app//) 
 
 ---
 
-##  Features
+## ✨ Features
 
-- Fetches and displays current news using a public API.
-- Responsive and clean UI with news cards.
-- Organized and readable code structure.
-- Easy to customize and build upon.
-
----
-
-##  Technology Stack
-
-| Component     | Tech Used             |
-|---------------|------------------------|
-| Markup        | HTML                   |
-| Styling       | CSS                    |
-| Logic & API   | Vanilla JavaScript     |
-| Hosting       | Vercel                 |
-
-Languages in the project: CSS (~41.8%), JavaScript (~37.7%), HTML (~20.5%) :contentReference[oaicite:1]{index=1}
+- **Live News Fetching** – Get the latest articles in real time.
+- **Category-Based Filtering** – Switch between news topics easily. *(Planned feature)*
+- **Bookmarking** – Save articles locally for later reading. *(Planned feature)*
+- **Search Functionality** – Find specific articles quickly. *(Planned feature)*
+- **Graceful Error Handling** – User-friendly messages for API or network issues.
 
 ---
 
-##  Folder Structure
+## 🛠 Tech Stack
 
+| Technology     | Purpose |
+|----------------|---------|
+| **HTML5**      | Markup structure |
+| **CSS3**       | Styling & responsiveness |
+| **JavaScript** | Logic, API calls, DOM manipulation |
+| **Fetch API**  | Data retrieval from external news API |
+| **Vercel**     | Hosting & deployment |
+---
 
+## 📂 Folder Structure
+
+```text
+root
+├── index.html     # Entry point
+├── style.css      # Stylesheet for layout and design
+├── script.js      # Handles fetching and rendering news
+└── README.md      # Project documentation
+---
+## 🙌 Acknowledgements
+
+News API for providing the data.
+
+Inspired by modern card-based news portals.
+
+Built with ❤️ by Khushi 
