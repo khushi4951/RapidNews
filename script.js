@@ -1,14 +1,15 @@
 
-        const API_KEY = "be7c6e11aaf040d19868946a4260acb4";
-        const url = "https://newsapi.org/v2/everything?q=";
+       const API_KEY = "9de9a128a20260e512de8c2501124ee2"; 
+         const url = "https://gnews.io/api/v4/search?q=";
 
-        window.addEventListener("load", () => fetchNews("Business"));
+        window.addEventListener("load", () => fetchNews("business"));
 
-            async function fetchNews(query) {
-        const res = await fetch(`${url}${query}&apiKey=${API_KEY}`);
-        const data = await res.json();
-        bindData(data.articles);
-    }
+           async function fetchNews(query) {
+    const res = await fetch(`${url}${encodeURIComponent(query)}&lang=en&max=10&token=${9de9a128a20260e512de8c2501124ee2}`);
+    const data = await res.json();
+    bindData(data.articles);
+}
+
 
         function bindData(articles) {
             const cardsContainer = document.getElementById("cardscontainer");
@@ -32,7 +33,7 @@
             const newsDesc = cardClone.querySelector("#news-desc");
             const bookmarkBtn = cardClone.querySelector(".bookmark-btn");
 
-            newsImg.src = article.urlToImage;
+           newsImg.src = article.urlToImage || article.image;
             newsTitle.innerHTML = article.title;
             newsDesc.innerHTML = article.description;
 
@@ -63,7 +64,7 @@
 
             bookmarks.push({
                 title: article.title,
-                urlToImage: article.urlToImage,
+                urlToImage: article.image,
                 description: article.description,
                 source: article.source.name,
                 url: article.url,
