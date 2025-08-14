@@ -44,6 +44,6 @@ root
 
 GNews for providing the data.
 
-Inspired by modern card-based news portals.
+Inspired by modern card based news portals.
 
 Built with ❤️ by Khushi 
