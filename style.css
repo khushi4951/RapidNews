@@ -42,7 +42,7 @@ p {
     overflow: hidden;
     white-space: nowrap;
     border-right: 1px solid;
-    animation: typing 4s steps(26) forwards, blink 1s step-end infinite;
+    animation: typing 4s steps(26) infinite, blink 1s step-end infinite;
     
   }
   
@@ -320,3 +320,4 @@ body.dark-mode .dark-mode-toggle {
 body.dark-mode .dark-mode-toggle span {
     background-color: #fff;
 }
+
